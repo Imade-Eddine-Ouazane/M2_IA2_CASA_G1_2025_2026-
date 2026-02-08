@@ -14,8 +14,8 @@ Ce dépôt contient deux projets de jeux de qualité professionnelle développé
 - **Jouer en Ligne** : [Arcade Itch.io d'Imade](https://imade-eddine-ouazane.itch.io/)
 - **Survivor.io** : [Lien Direct](https://imade-eddine-ouazane.itch.io/sur)
 - **Pac-Man** : [Lien Direct](https://imade-eddine-ouazane.itch.io/s)
-- **Vidéo Démo** : [Lien YouTube](https://youtu.be/uTBPs-MvlS4)
-- **Vidéo Démo** : [Lien YouTube](https://youtu.be/U_z_r0RDgKU)
+- **Vidéo Démo Pac-Man** : [Lien YouTube](https://youtu.be/uTBPs-MvlS4)
+- **Vidéo Démo Survivor.io** : [Lien YouTube](https://youtu.be/U_z_r0RDgKU)
 
 ### 🏷️ Hashtags pour YouTube
 `#GameDev #p5js #JavaScript #IndieDev #SurvivorIO #PacMan #Coding #AI #Gemini #GoogleDeepMind #OpenSource #Programmation #JeuxVideo #ItchIO`
