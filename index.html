@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imade's Game Arcade</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #1a1a1a;
+            color: #fff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 2rem;
+            color: #4ade80;
+            text-shadow: 0 0 10px rgba(74, 222, 128, 0.5);
+        }
+
+        .container {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            background: #2a2a2a;
+            border-radius: 15px;
+            width: 300px;
+            padding: 2rem;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+            text-decoration: none;
+            color: white;
+            border: 2px solid transparent;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+            border-color: #4ade80;
+        }
+
+        .card h2 {
+            margin-top: 0;
+            font-size: 2rem;
+        }
+
+        .icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        .survivor {
+            color: #ef4444;
+        }
+
+        .pacman {
+            color: #fbbf24;
+        }
+
+        .desc {
+            color: #aaa;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Imade's Arcade</h1>
+
+    <div class="container">
+        <!-- Survivor.io Card -->
+        <a href="https://imade-eddine-ouazane.itch.io/sur" class="card">
+            <div class="icon survivor">⚔️</div>
+            <h2>Survivor.io</h2>
+            <div class="desc">Survive endless waves of enemies, upgrade weapons, and defeat bosses!</div>
+        </a>
+
+        <!-- PacMan Card -->
+        <a href="https://imade-eddine-ouazane.itch.io/s" class="card">
+            <div class="icon pacman">👻</div>
+            <h2>Pac-Man</h2>
+            <div class="desc">Classic arcade action. Eat dots, avoid ghosts, and clear the maze!</div>
+        </a>
+    </div>
+
+</body>
+
+</html>
